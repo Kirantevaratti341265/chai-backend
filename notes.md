@@ -28,13 +28,13 @@ IInd method--
 In this create db folder and file and import it into index file
 import mongoose and import db name  and create a fuction or variable connectDB and take asynac and try catch method and error method insted pf throw error and use process of node.js and process.exit(1).
 In try method tak await and connect and variable process and link name in env of database and database name also given and it can be stored in a variable connectionInstance and console log it as mongoDB connected. and take DB host take connctionInstance anc connection and host. In last export this connctDb.
-import connectDB and execute it in index.js file of source and after some time it it will return promise for that use .then and .cathc in this catch if database failed console as callback funcioon and in then use app.listen and process of and port 8000 alternate port and cosole server is running and proces ece port .
+import connectDB and execute it in index.js file of source. When async is used in dbconnect after some time it it will return promise for that use .then and .cathc in this catch if database failed console as callback funcioon and in then part use app.listen and process of and port 8000 alternate port and cosole server is running and proces ece port .
 
 what is role of dotenv.
-It says as much as possible import and configure this dot env in your application but if we take its method require first in code and after import it will spoil the consistancy of code.
+It says as much as possible import and configure this dot env in your application but if we take its method require first in code and after import of other methods it will spoil the consistancy of code.
 To solve this import dotencv and config it path './env'
-it is not used in anywhere like import and require for that it is used as experimental module in package json
-In this mongoose and dbName is not imorted because it is already used in connectDb of anther file.
+(it is not used in anywhere like import and require part later in docs) for that it is used as experimental module in package json
+In this index file mongoose and dbName is not imorted because it is already used in connectDb of anther file.
 
 Express uses --
 In this req and res and two options are there what req data coming and res data sending for . req.json req.param - any data from url come in params similarly body, qury etca re there and also from cookies also .
@@ -59,5 +59,5 @@ For this asynhandler file is created and it wil create method but this function 
  const method => () => () . pass method in first callback and in secon pass req res  next  and in wrapper pass promise method an resolve and pas method of and catch err. In this Promise.resolve is invoked.
 
 How to write a standardised of res and req models  
-
+know step by step about apiresponse and apierror through chatgpt.
 
